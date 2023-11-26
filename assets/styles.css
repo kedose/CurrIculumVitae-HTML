@@ -1,0 +1,65 @@
+/** @format to curriculum vitae*/
+/* Estilo para la imagen circular */
+.imagenCircular {
+    border-radius: 50%;
+    /* Hace que la imagen tenga bordes redondeados, creando un círculo */
+    width: 250px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    overflow: hidden;
+    border: 6px solid #405779;
+    display: block;
+    /* Ajusta la imagen como un bloque */
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+.cell1-header {
+    color: black;
+    width: 800px;
+    background-color: white;
+}
+
+.cell2-header {
+    width: 400px;
+}
+
+.cell3-header {
+    color: white;
+    width: 400px;
+    height: auto;
+    /* Puedes ajustar la altura según tus necesidades */
+    background-color: #405779;
+    text-align: justify;
+    /* Puedes ajustar el valor de acuerdo a la cantidad de sangría deseada */
+}
+
+html {
+    background-color: #333333;
+    /* Gris oscuro */
+}
+
+body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 20mm;
+    /* Márgenes interiores */
+    background-color: #405779;
+    /* Fondo blanco para el contenido */
+}
+
+@page {
+    size: A4;
+    margin: 20mm;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+    width: 100%;
+    /* Ajusta el ancho según tus necesidades */
+}
